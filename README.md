@@ -43,14 +43,44 @@ This dataset is provided in JSON format. Each entry contains a question and its 
 
 ```json
 {
-  "metadata": {
-    // Attribution and licensing information
-  },
-  "qa_pairs": [
-    {
-      "question": "What significant event occurred in 1492?",
-      "answer": "Christopher Columbus's first voyage to the Americas."
+    "metadata": {
+        "dataset_name": "World History Since 1500 Q&A Dataset",
+        "dataset_description": "A collection of question and answer pairs derived from 'World History Since 1500: An Open and Free Textbook'",
+        "original_work": {
+            "title": "World History Since 1500: An Open and Free Textbook",
+            "authors": [
+                "John Rankin",
+                "Constanze Weise"
+            ],
+            "institution": "East Tennessee State University",
+            "publication_year": 2023,
+            "language": "English",
+            "license": "CC BY-SA",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "derivative_work": {
+            "title": "World History Since 1500 Q&A Dataset",
+            "creator": "Your Name or Organization",
+            "creation_date": "2024-09-10",
+            "description": "Question and answer pairs generated using PlanAI task orchestration framework",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "generation_tool": {
+            "name": "PlanAI",
+            "version": "0.1.3",
+            "repository": "https://github.com/provos/planai",
+            "documentation": "https://docs.getplanai.com/"
+        },
+        "attribution": "This work is derived from 'World History Since 1500: An Open and Free Textbook' by John Rankin and Constanze Weise of East Tennessee State University, published in 2023. The original work is licensed under CC BY-SA. This derivative work, consisting of generated question and answer pairs, is also licensed under CC BY-SA 4.0.",
+        "usage_notes": "This dataset is intended for educational and research purposes. Users should refer to the original textbook and other authoritative sources for definitive information.",
+        "contact": "For questions or concerns, please open an issue in the GitHub repository: https://github.com/yourusername/world-history-1500-qa"
     },
+    "qa_pairs": [
+        {
+            "question": "What was the impact of Winston Churchill’s 1946 speech on U.S. public opinion towards the Soviet Union?",
+            "answer": "The immediate impact of Churchill's 1946 speech was profound, reshaping U.S. public perception of the Soviet Union as a formidable adversary. By recognizing and naming Soviet influence in Central and Eastern Europe, Churchill not only illustrated the urgency of the situation but also positioned the United States as a key player in countering Soviet ambitions. Following the speech, events such as the Soviet attempt to pressure Turkey underscored the call to action that Churchill proposed. The United States' response, including military deployments and the establishment of the National Security Council, reflected a newfound seriousness in American foreign policy. This attitude paved the way for substantial policy changes aimed at preventing any further encroachment of communism, signifying the beginning of a prolonged ideological confrontation with the USSR."
+        },
     // More Q&A pairs...
   ]
 }
