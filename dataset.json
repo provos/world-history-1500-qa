@@ -30,7 +30,7 @@
         },
         "attribution": "This work is derived from 'World History Since 1500: An Open and Free Textbook' by John Rankin and Constanze Weise of East Tennessee State University, published in 2023. The original work is licensed under CC BY-SA. This derivative work, consisting of generated question and answer pairs, is also licensed under CC BY-SA 4.0.",
         "usage_notes": "This dataset is intended for educational and research purposes. Users should refer to the original textbook and other authoritative sources for definitive information.",
-        "contact": "For questions or concerns, please open an issue in the GitHub repository: https://github.com/yourusername/world-history-1500-qa"
+        "contact": "For questions or concerns, please open an issue in the GitHub repository: https://github.com/provos/world-history-1500-qa"
     },
     "qa_pairs": [
         {
